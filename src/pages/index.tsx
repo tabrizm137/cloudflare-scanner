@@ -16,6 +16,7 @@ import { allIps } from "~/consts";
 import { useUserIPInfo } from "~/hooks/useUserIPInfo";
 import { toast } from "react-hot-toast";
 import { useEffect, useState } from "react";
+import GitHubButton from 'react-github-btn';
 //import { useRouter } from 'next/router';
 const UserIP = dynamic(() => import("~/components/UserIP"), { ssr: false });
 
@@ -361,6 +362,10 @@ const Home: NextPage = () => {
             Kiomarzsss
           </a>
           , IRCF, VahidFarid, goldSrc
+          <br />
+            <span dir="ltr" className={"starBtn"}>
+                <GitHubButton href="https://github.com/kiomarzsss/kscanner" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star kiomarzsss/kscanner on GitHub">Star</GitHubButton>
+            </span>
           <br />
         </footer>
       </div>
