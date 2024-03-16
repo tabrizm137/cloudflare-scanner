@@ -107,7 +107,7 @@ const Home: NextPage = () => {
               <a href="https://ircf.space">معرفی</a>
             </li>
             <li className="active">
-              <a href="http://scanner.github1.cloud/">اسکنر</a>
+              <a href="https://scanner.github1.cloud/">اسکنر</a>
             </li>
             <li className="pull-left">
               <a href="https://ircf.space/contacts.php">تماس‌باما</a>
