@@ -367,6 +367,9 @@ const Home: NextPage = () => {
                 <GitHubButton href="https://github.com/kiomarzsss/kscanner" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-show-count="true" aria-label="Star kiomarzsss/kscanner on GitHub">Star</GitHubButton>
             </span>
           <br />
+            <div className="text-center">
+                <a href="https://ircf.space/contacts.php" target="_blank" className="btn btn-link btn-normal btn-lg btn-outline donateLink">☕</a>
+            </div>
         </footer>
       </div>
     </>
